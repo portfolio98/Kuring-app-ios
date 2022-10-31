@@ -1,0 +1,14 @@
+{
+    "aps": {
+        "alert": {
+            "title": "제",
+            "body": "한글임",
+        }
+        
+    },
+    "google.c.a.e": {
+        "google.c.sender.id": {
+            "link_url": "https://www.naver.com"
+        }
+    }
+}
