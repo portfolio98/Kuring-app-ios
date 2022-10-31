@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9580E5C27ED849100253A58 /* NSObject.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9580E5B27ED849100253A58 /* NSObject.Kuring.swift */; };
+		A9580E5E27ED85AC00253A58 /* StringSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9580E5D27ED85AC00253A58 /* StringSet.swift */; };
+		A966E1B02824364200F6AF3D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A966E1AF2824364200F6AF3D /* LottieView.swift */; };
+		A99286592843575000802EC1 /* NoticeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99286582843575000802EC1 /* NoticeListModel.swift */; };
+		A992865B284357CE00802EC1 /* NoticeTypeColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992865A284357CE00802EC1 /* NoticeTypeColumn.swift */; };
+		A994014727E9E5AC00FE9989 /* View.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A994014627E9E5AC00FE9989 /* View.Kuring.swift */; };
+		A9C447EB27C7EA3B0094D9A9 /* Bundle.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C447EA27C7EA3B0094D9A9 /* Bundle.Kuring.swift */; };
+		A9CD87C627E3A0A5007831C8 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD87C527E3A0A5007831C8 /* FeedbackView.swift */; };
+		A9CD87C827E3AC77007831C8 /* FeedbackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CD87C727E3AC77007831C8 /* FeedbackViewModel.swift */; };
+		A9D248032822BB1800F6FC51 /* SendbirdChatSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A9D248022822BB1800F6FC51 /* SendbirdChatSDK */; };
+		A9D248062822DAD900F6FC51 /* KuringCommons in Frameworks */ = {isa = PBXBuildFile; productRef = A9D248052822DAD900F6FC51 /* KuringCommons */; };
+		A9D248142822DFB700F6FC51 /* String.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D248132822DFB700F6FC51 /* String.Kuring.swift */; };
+		A9DA6C6627B97EE300F3B786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6C6527B97EE300F3B786 /* AppDelegate.swift */; };
+		A9DA6C6F27B97EE500F3B786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DA6C6E27B97EE500F3B786 /* Assets.xcassets */; };
+		A9DA6C7E27B9809900F3B786 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A9DA6C7D27B9809900F3B786 /* FirebaseAnalytics */; };
+		A9DA6C8027B9809900F3B786 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A9DA6C7F27B9809900F3B786 /* FirebaseMessaging */; };
+		A9DA6C8327B9813D00F3B786 /* KuringSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DA6C8227B9813D00F3B786 /* KuringSDK.framework */; };
+		A9DA6C8427B9813D00F3B786 /* KuringSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9DA6C8227B9813D00F3B786 /* KuringSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9DA6C8727B981A100F3B786 /* AppDelegate.RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6C8627B981A100F3B786 /* AppDelegate.RemoteNotification.swift */; };
+		A9DA6CC227B98D2300F3B786 /* Date.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6C8F27B98D2200F3B786 /* Date.Kuring.swift */; };
+		A9DA6CC327B98D2300F3B786 /* Notice.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6C9027B98D2200F3B786 /* Notice.Kuring.swift */; };
+		A9DA6CCB27B98D2300F3B786 /* UIViewController.Kuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6C9827B98D2200F3B786 /* UIViewController.Kuring.swift */; };
+		A9DA6CD727B98D2300F3B786 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6CAA27B98D2200F3B786 /* SettingsViewController.swift */; };
+		A9DA6CE327B98D2300F3B786 /* Opensource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DA6CBB27B98D2300F3B786 /* Opensource.swift */; };
+		A9DA6D0927B98FEC00F3B786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DA6D0727B98FEC00F3B786 /* LaunchScreen.storyboard */; };
+		B109832A284086EE00BC5123 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1098329284086EE00BC5123 /* WebView.swift */; };
+		B10BECA42855DE7A00D50AA2 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = B10BECA32855DE7A00D50AA2 /* GoogleMobileAds */; };
+		B10BECA92855E9F300D50AA2 /* KuringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10BECA82855E9F300D50AA2 /* KuringApp.swift */; };
+		B10BECAB2855EB9B00D50AA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992865C284358A600802EC1 /* HomeView.swift */; };
+		B10BECAC2855EB9C00D50AA2 /* NotificationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112A15B284B2691003301C1 /* NotificationSection.swift */; };
+		B10BECAD2855EB9C00D50AA2 /* NotificationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112A15D284B4D61003301C1 /* NotificationListModel.swift */; };
+		B10BECAE2855EB9C00D50AA2 /* NoticeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992865E2843596200802EC1 /* NoticeListViewController.swift */; };
+		B10BECAF2855EB9C00D50AA2 /* NoticeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9928656284356E200802EC1 /* NoticeList.swift */; };
+		B10BECB52855EC1200D50AA2 /* NotificationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10BECB12855EC1200D50AA2 /* NotificationList.swift */; };
+		B10BECB62855EC1200D50AA2 /* NotificationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10BECB22855EC1200D50AA2 /* NotificationListModel.swift */; };
+		B10BECB72855EC1200D50AA2 /* NotificationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10BECB42855EC1200D50AA2 /* NotificationSection.swift */; };
+		B11B4C3527C53B5A00F63D17 /* AppDelegate.AppsFlyerLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B4C3427C53B5A00F63D17 /* AppDelegate.AppsFlyerLib.swift */; };
+		B1453AFD284D1E4F001851A8 /* SearchedStaffDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1453AFC284D1E4F001851A8 /* SearchedStaffDetailList.swift */; };
+		B1453AFF284D2205001851A8 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1453AFE284D2205001851A8 /* MailView.swift */; };
+		B19CB9C9284C5DE500CBF6A7 /* SettingListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19CB9C8284C5DE500CBF6A7 /* SettingListModel.swift */; };
+		B1C96C82284CD4F70059F4A3 /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C81284CD4F70059F4A3 /* SearchEngine.swift */; };
+		B1C96C84284CD5260059F4A3 /* SearchTypeColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C83284CD5260059F4A3 /* SearchTypeColumn.swift */; };
+		B1C96C86284CD5400059F4A3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C85284CD5400059F4A3 /* SearchView.swift */; };
+		B1C96C88284CD54F0059F4A3 /* SearchedNoticeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C87284CD54F0059F4A3 /* SearchedNoticeRow.swift */; };
+		B1C96C8A284CD5670059F4A3 /* SearchedResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C89284CD5670059F4A3 /* SearchedResultList.swift */; };
+		B1C96C8C284CD5770059F4A3 /* SearchedStaffRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C96C8B284CD5770059F4A3 /* SearchedStaffRow.swift */; };
+		B1D41B80284BD68B00779F4E /* SettingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D41B7F284BD68B00779F4E /* SettingList.swift */; };
+		B1D41B82284BDF0D00779F4E /* SettingTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D41B81284BDF0D00779F4E /* SettingTextModifier.swift */; };
+		B1D7F8D7284E3D92005C74F3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D7F8D6284E3D92005C74F3 /* SearchViewController.swift */; };
+		B1DE72E8281CFFAB002AF498 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B1DE72E7281CFFAB002AF498 /* Lottie */; };
+		B1DE72EC281D1EE7002AF498 /* lottieLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = B1DE72EB281D1EE7002AF498 /* lottieLoading.json */; };
+		B1DF67702840B58200D6FB9C /* ActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF676F2840B58200D6FB9C /* ActivityItem.swift */; };
+		B1DF67722840B59A00D6FB9C /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF67712840B59A00D6FB9C /* ActivityView.swift */; };
+		B1DF67742840B5DA00D6FB9C /* NoticeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF67732840B5DA00D6FB9C /* NoticeWebView.swift */; };
+		B1DF67762840B7A100D6FB9C /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF67752840B7A100D6FB9C /* BannerView.swift */; };
+		B1DF67782840B87100D6FB9C /* NoticeBookmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF67772840B87100D6FB9C /* NoticeBookmarkList.swift */; };
+		B1DF677A2840B8A900D6FB9C /* NoticeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DF67792840B8A900D6FB9C /* NoticeRow.swift */; };
+		B1E4761027E85B2C002CEBD6 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E4760F27E85B2C002CEBD6 /* HapticManager.swift */; };
+		B1FBAD1127D213C90044B90A /* AppStoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FBAD1027D213C90044B90A /* AppStoreReviewManager.swift */; };
+		B1FC9FC2284C97B40051AD95 /* OpenSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FC9FC1284C97B40051AD95 /* OpenSourceView.swift */; };
+		D430312BD0477A68D7728C94 /* Pods_Kuring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBAF75F4B2433346602A42E /* Pods_Kuring.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9DA6C8527B9813D00F3B786 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A9DA6C8427B9813D00F3B786 /* KuringSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		098133CE147F3EC919795C6B /* Pods-Kuring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuring.debug.xcconfig"; path = "Target Support Files/Pods-Kuring/Pods-Kuring.debug.xcconfig"; sourceTree = "<group>"; };
+		6AA68EE0A1CA6D5FD2FB9A4F /* Pods-Kuring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuring.release.xcconfig"; path = "Target Support Files/Pods-Kuring/Pods-Kuring.release.xcconfig"; sourceTree = "<group>"; };
+		A9580E5B27ED849100253A58 /* NSObject.Kuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.Kuring.swift; sourceTree = "<group>"; };
+		A9580E5D27ED85AC00253A58 /* StringSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringSet.swift; sourceTree = "<group>"; };
+		A966E1AF2824364200F6AF3D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A9928656284356E200802EC1 /* NoticeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeList.swift; sourceTree = "<group>"; };
+		A99286582843575000802EC1 /* NoticeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListModel.swift; sourceTree = "<group>"; };
+		A992865A284357CE00802EC1 /* NoticeTypeColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeTypeColumn.swift; sourceTree = "<group>"; };
+		A992865C284358A600802EC1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A992865E2843596200802EC1 /* NoticeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListViewController.swift; sourceTree = "<group>"; };
+		A994014627E9E5AC00FE9989 /* View.Kuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.Kuring.swift; sourceTree = "<group>"; };
+		A9C447EA27C7EA3B0094D9A9 /* Bundle.Kuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.Kuring.swift; sourceTree = "<group>"; };
+		A9CD87C527E3A0A5007831C8 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		A9CD87C727E3AC77007831C8 /* FeedbackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewModel.swift; sourceTree = "<group>"; };
+		A9D248132822DFB700F6FC51 /* String.Kuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.Kuring.swift; sourceTree = "<group>"; };
+		A9DA6C6227B97EE300F3B786 /* Kuring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA6C6527B97EE300F3B786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DA6C6E27B97EE500F3B786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DA6C7927B97F8300F3B786 /* Kuring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kuring.entitlements; sourceTree = "<group>"; };
+		A9DA6C8227B9813D00F3B786 /* KuringSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KuringSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DA6C8627B981A100F3B786 /* AppDelegate.RemoteNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.RemoteNotification.swift; sourceTree = "<group>"; };
+		A9DA6C8F27B98D2200F3B786 /* Date.Kuring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.Kuring.swift; sourceTree = "<group>"; };
+		A9DA6C9027B98D2200F3B786 /* Notice.Kuring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notice.Kuring.swift; sourceTree = "<group>"; };
+		A9DA6C9827B98D2200F3B786 /* UIViewController.Kuring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.Kuring.swift; sourceTree = "<group>"; };
+		A9DA6CAA27B98D2200F3B786 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A9DA6CBB27B98D2300F3B786 /* Opensource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opensource.swift; sourceTree = "<group>"; };
+		A9DA6D0827B98FEC00F3B786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1098329284086EE00BC5123 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B10BECA82855E9F300D50AA2 /* KuringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuringApp.swift; sourceTree = "<group>"; };
+		B10BECB12855EC1200D50AA2 /* NotificationList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationList.swift; sourceTree = "<group>"; };
+		B10BECB22855EC1200D50AA2 /* NotificationListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationListModel.swift; sourceTree = "<group>"; };
+		B10BECB42855EC1200D50AA2 /* NotificationSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSection.swift; sourceTree = "<group>"; };
+		B112A15B284B2691003301C1 /* NotificationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSection.swift; sourceTree = "<group>"; };
+		B112A15D284B4D61003301C1 /* NotificationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListModel.swift; sourceTree = "<group>"; };
+		B11B4C3427C53B5A00F63D17 /* AppDelegate.AppsFlyerLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.AppsFlyerLib.swift; sourceTree = "<group>"; };
+		B1453AFC284D1E4F001851A8 /* SearchedStaffDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedStaffDetailList.swift; sourceTree = "<group>"; };
+		B1453AFE284D2205001851A8 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		B19CB9C8284C5DE500CBF6A7 /* SettingListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingListModel.swift; sourceTree = "<group>"; };
+		B1C96C81284CD4F70059F4A3 /* SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		B1C96C83284CD5260059F4A3 /* SearchTypeColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTypeColumn.swift; sourceTree = "<group>"; };
+		B1C96C85284CD5400059F4A3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B1C96C87284CD54F0059F4A3 /* SearchedNoticeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedNoticeRow.swift; sourceTree = "<group>"; };
+		B1C96C89284CD5670059F4A3 /* SearchedResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedResultList.swift; sourceTree = "<group>"; };
+		B1C96C8B284CD5770059F4A3 /* SearchedStaffRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedStaffRow.swift; sourceTree = "<group>"; };
+		B1D41B7F284BD68B00779F4E /* SettingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingList.swift; sourceTree = "<group>"; };
+		B1D41B81284BDF0D00779F4E /* SettingTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTextModifier.swift; sourceTree = "<group>"; };
+		B1D7F8D6284E3D92005C74F3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B1DE72EB281D1EE7002AF498 /* lottieLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottieLoading.json; sourceTree = "<group>"; };
+		B1DF676F2840B58200D6FB9C /* ActivityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItem.swift; sourceTree = "<group>"; };
+		B1DF67712840B59A00D6FB9C /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		B1DF67732840B5DA00D6FB9C /* NoticeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeWebView.swift; sourceTree = "<group>"; };
+		B1DF67752840B7A100D6FB9C /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		B1DF67772840B87100D6FB9C /* NoticeBookmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeBookmarkList.swift; sourceTree = "<group>"; };
+		B1DF67792840B8A900D6FB9C /* NoticeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeRow.swift; sourceTree = "<group>"; };
+		B1E4760F27E85B2C002CEBD6 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		B1FBAD1027D213C90044B90A /* AppStoreReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReviewManager.swift; sourceTree = "<group>"; };
+		B1FC9FC1284C97B40051AD95 /* OpenSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceView.swift; sourceTree = "<group>"; };
+		CDBAF75F4B2433346602A42E /* Pods_Kuring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kuring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DA6C5F27B97EE300F3B786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DE72E8281CFFAB002AF498 /* Lottie in Frameworks */,
+				A9DA6C8027B9809900F3B786 /* FirebaseMessaging in Frameworks */,
+				A9D248032822BB1800F6FC51 /* SendbirdChatSDK in Frameworks */,
+				A9DA6C7E27B9809900F3B786 /* FirebaseAnalytics in Frameworks */,
+				B10BECA42855DE7A00D50AA2 /* GoogleMobileAds in Frameworks */,
+				A9DA6C8327B9813D00F3B786 /* KuringSDK.framework in Frameworks */,
+				A9D248062822DAD900F6FC51 /* KuringCommons in Frameworks */,
+				D430312BD0477A68D7728C94 /* Pods_Kuring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303846B4E48B6E66F2BF2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				098133CE147F3EC919795C6B /* Pods-Kuring.debug.xcconfig */,
+				6AA68EE0A1CA6D5FD2FB9A4F /* Pods-Kuring.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9DA6C5927B97EE300F3B786 = {
+			isa = PBXGroup;
+			children = (
+				A9DA6C6427B97EE300F3B786 /* Kuring */,
+				A9DA6C6327B97EE300F3B786 /* Products */,
+				A9DA6C8127B9813D00F3B786 /* Frameworks */,
+				0303846B4E48B6E66F2BF2DA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DA6C6327B97EE300F3B786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6C6227B97EE300F3B786 /* Kuring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DA6C6427B97EE300F3B786 /* Kuring */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6C7927B97F8300F3B786 /* Kuring.entitlements */,
+				B10BECA82855E9F300D50AA2 /* KuringApp.swift */,
+				A9DA6C6527B97EE300F3B786 /* AppDelegate.swift */,
+				A9DA6C8627B981A100F3B786 /* AppDelegate.RemoteNotification.swift */,
+				B11B4C3427C53B5A00F63D17 /* AppDelegate.AppsFlyerLib.swift */,
+				A992865C284358A600802EC1 /* HomeView.swift */,
+				A9DA6CB327B98D2200F3B786 /* Notifications */,
+				A9DA6C9B27B98D2200F3B786 /* Manger */,
+				A9DA6C8827B98D2200F3B786 /* Feedback */,
+				A9DA6CAB27B98D2200F3B786 /* Notice */,
+				B10BECB02855EC1200D50AA2 /* Notifications */,
+				A9DA6CBA27B98D2300F3B786 /* OpenSource */,
+				A9DA6C9D27B98D2200F3B786 /* Search */,
+				A9DA6CA927B98D2200F3B786 /* Settings */,
+				B1A0382127C3E9F90074EC95 /* Extension */,
+				A9DA6C8E27B98D2200F3B786 /* Utils */,
+				B1D83712281BBD2900A2AF01 /* Resources */,
+				A9DA6D0727B98FEC00F3B786 /* LaunchScreen.storyboard */,
+				A9DA6C6E27B97EE500F3B786 /* Assets.xcassets */,
+			);
+			path = Kuring;
+			sourceTree = "<group>";
+		};
+		A9DA6C8127B9813D00F3B786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6C8227B9813D00F3B786 /* KuringSDK.framework */,
+				CDBAF75F4B2433346602A42E /* Pods_Kuring.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DA6C8827B98D2200F3B786 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD87C527E3A0A5007831C8 /* FeedbackView.swift */,
+				A9CD87C727E3AC77007831C8 /* FeedbackViewModel.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		A9DA6C8E27B98D2200F3B786 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A966E1AF2824364200F6AF3D /* LottieView.swift */,
+				A9580E5D27ED85AC00253A58 /* StringSet.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A9DA6C9B27B98D2200F3B786 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				B1E4760F27E85B2C002CEBD6 /* HapticManager.swift */,
+				B1FBAD1027D213C90044B90A /* AppStoreReviewManager.swift */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		A9DA6C9D27B98D2200F3B786 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B1C96C81284CD4F70059F4A3 /* SearchEngine.swift */,
+				B1D7F8D6284E3D92005C74F3 /* SearchViewController.swift */,
+				B1C96C85284CD5400059F4A3 /* SearchView.swift */,
+				B1C96C80284CD4D80059F4A3 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A9DA6CA927B98D2200F3B786 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6CAA27B98D2200F3B786 /* SettingsViewController.swift */,
+				B1D41B7F284BD68B00779F4E /* SettingList.swift */,
+				B19CB9C8284C5DE500CBF6A7 /* SettingListModel.swift */,
+				B1D41B81284BDF0D00779F4E /* SettingTextModifier.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A9DA6CAB27B98D2200F3B786 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				A992865E2843596200802EC1 /* NoticeListViewController.swift */,
+				B1DF67792840B8A900D6FB9C /* NoticeRow.swift */,
+				A9928656284356E200802EC1 /* NoticeList.swift */,
+				A992865A284357CE00802EC1 /* NoticeTypeColumn.swift */,
+				A99286582843575000802EC1 /* NoticeListModel.swift */,
+				B1098328284086D000BC5123 /* WebView */,
+				B1CF412F2822916800D4E1CC /* Bookmark */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		A9DA6CB327B98D2200F3B786 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B112A15B284B2691003301C1 /* NotificationSection.swift */,
+				B112A15D284B4D61003301C1 /* NotificationListModel.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		A9DA6CBA27B98D2300F3B786 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6CBB27B98D2300F3B786 /* Opensource.swift */,
+				B1FC9FC1284C97B40051AD95 /* OpenSourceView.swift */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		B1098328284086D000BC5123 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF67732840B5DA00D6FB9C /* NoticeWebView.swift */,
+				B1098329284086EE00BC5123 /* WebView.swift */,
+				B1DF67752840B7A100D6FB9C /* BannerView.swift */,
+				B1DF676F2840B58200D6FB9C /* ActivityItem.swift */,
+				B1DF67712840B59A00D6FB9C /* ActivityView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		B10BECB02855EC1200D50AA2 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B10BECB12855EC1200D50AA2 /* NotificationList.swift */,
+				B10BECB22855EC1200D50AA2 /* NotificationListModel.swift */,
+				B1D57428287C85E200A6E40C /* View */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		B1A0382127C3E9F90074EC95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA6C8F27B98D2200F3B786 /* Date.Kuring.swift */,
+				A9C447EA27C7EA3B0094D9A9 /* Bundle.Kuring.swift */,
+				A9DA6C9827B98D2200F3B786 /* UIViewController.Kuring.swift */,
+				A9DA6C9027B98D2200F3B786 /* Notice.Kuring.swift */,
+				A994014627E9E5AC00FE9989 /* View.Kuring.swift */,
+				A9580E5B27ED849100253A58 /* NSObject.Kuring.swift */,
+				A9D248132822DFB700F6FC51 /* String.Kuring.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B1C96C80284CD4D80059F4A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1C96C83284CD5260059F4A3 /* SearchTypeColumn.swift */,
+				B1C96C89284CD5670059F4A3 /* SearchedResultList.swift */,
+				B1C96C87284CD54F0059F4A3 /* SearchedNoticeRow.swift */,
+				B1C96C8B284CD5770059F4A3 /* SearchedStaffRow.swift */,
+				B1453AFC284D1E4F001851A8 /* SearchedStaffDetailList.swift */,
+				B1453AFE284D2205001851A8 /* MailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1CF412F2822916800D4E1CC /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				B1DF67772840B87100D6FB9C /* NoticeBookmarkList.swift */,
+			);
+			path = Bookmark;
+			sourceTree = "<group>";
+		};
+		B1D57428287C85E200A6E40C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B10BECB42855EC1200D50AA2 /* NotificationSection.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1D83712281BBD2900A2AF01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1DE72EB281D1EE7002AF498 /* lottieLoading.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DA6C6127B97EE300F3B786 /* Kuring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DA6C7627B97EE500F3B786 /* Build configuration list for PBXNativeTarget "Kuring" */;
+			buildPhases = (
+				ABD156C4EFD6E12A1C2CC3D8 /* [CP] Check Pods Manifest.lock */,
+				A9DA6C5E27B97EE300F3B786 /* Sources */,
+				A9DA6C5F27B97EE300F3B786 /* Frameworks */,
+				A9DA6C6027B97EE300F3B786 /* Resources */,
+				A9DA6C8527B9813D00F3B786 /* Embed Frameworks */,
+				5B7797E2CD28B995C21DBA58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuring;
+			packageProductDependencies = (
+				A9DA6C7D27B9809900F3B786 /* FirebaseAnalytics */,
+				A9DA6C7F27B9809900F3B786 /* FirebaseMessaging */,
+				B1DE72E7281CFFAB002AF498 /* Lottie */,
+				A9D248022822BB1800F6FC51 /* SendbirdChatSDK */,
+				A9D248052822DAD900F6FC51 /* KuringCommons */,
+				B10BECA32855DE7A00D50AA2 /* GoogleMobileAds */,
+			);
+			productName = Kuring;
+			productReference = A9DA6C6227B97EE300F3B786 /* Kuring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DA6C5A27B97EE300F3B786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A9DA6C6127B97EE300F3B786 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = A9DA6C5D27B97EE300F3B786 /* Build configuration list for PBXProject "Kuring" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DA6C5927B97EE300F3B786;
+			packageReferences = (
+				A9DA6C7C27B9809900F3B786 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B1DE72E6281CFFAB002AF498 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A9D248012822BB1800F6FC51 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */,
+				A9D248042822DAD900F6FC51 /* XCRemoteSwiftPackageReference "kuring-ios-commons" */,
+				B10BECA22855DE7A00D50AA2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = A9DA6C6327B97EE300F3B786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DA6C6127B97EE300F3B786 /* Kuring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DA6C6027B97EE300F3B786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DE72EC281D1EE7002AF498 /* lottieLoading.json in Resources */,
+				A9DA6D0927B98FEC00F3B786 /* LaunchScreen.storyboard in Resources */,
+				A9DA6C6F27B97EE500F3B786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B7797E2CD28B995C21DBA58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kuring/Pods-Kuring-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kuring/Pods-Kuring-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kuring/Pods-Kuring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD156C4EFD6E12A1C2CC3D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kuring-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DA6C5E27B97EE300F3B786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10BECAB2855EB9B00D50AA2 /* HomeView.swift in Sources */,
+				B10BECAC2855EB9C00D50AA2 /* NotificationSection.swift in Sources */,
+				B10BECAD2855EB9C00D50AA2 /* NotificationListModel.swift in Sources */,
+				B10BECAE2855EB9C00D50AA2 /* NoticeListViewController.swift in Sources */,
+				B10BECAF2855EB9C00D50AA2 /* NoticeList.swift in Sources */,
+				A994014727E9E5AC00FE9989 /* View.Kuring.swift in Sources */,
+				B10BECA92855E9F300D50AA2 /* KuringApp.swift in Sources */,
+				B1DF67742840B5DA00D6FB9C /* NoticeWebView.swift in Sources */,
+				B1DF677A2840B8A900D6FB9C /* NoticeRow.swift in Sources */,
+				A9DA6CE327B98D2300F3B786 /* Opensource.swift in Sources */,
+				B1C96C8C284CD5770059F4A3 /* SearchedStaffRow.swift in Sources */,
+				B1C96C86284CD5400059F4A3 /* SearchView.swift in Sources */,
+				A99286592843575000802EC1 /* NoticeListModel.swift in Sources */,
+				B109832A284086EE00BC5123 /* WebView.swift in Sources */,
+				B1C96C88284CD54F0059F4A3 /* SearchedNoticeRow.swift in Sources */,
+				A9DA6CC327B98D2300F3B786 /* Notice.Kuring.swift in Sources */,
+				A9580E5C27ED849100253A58 /* NSObject.Kuring.swift in Sources */,
+				A966E1B02824364200F6AF3D /* LottieView.swift in Sources */,
+				B1C96C8A284CD5670059F4A3 /* SearchedResultList.swift in Sources */,
+				B10BECB62855EC1200D50AA2 /* NotificationListModel.swift in Sources */,
+				B1D7F8D7284E3D92005C74F3 /* SearchViewController.swift in Sources */,
+				A9DA6CC227B98D2300F3B786 /* Date.Kuring.swift in Sources */,
+				A9DA6CCB27B98D2300F3B786 /* UIViewController.Kuring.swift in Sources */,
+				B1C96C84284CD5260059F4A3 /* SearchTypeColumn.swift in Sources */,
+				B1DF67702840B58200D6FB9C /* ActivityItem.swift in Sources */,
+				B1D41B82284BDF0D00779F4E /* SettingTextModifier.swift in Sources */,
+				B1D41B80284BD68B00779F4E /* SettingList.swift in Sources */,
+				A9C447EB27C7EA3B0094D9A9 /* Bundle.Kuring.swift in Sources */,
+				B1DF67722840B59A00D6FB9C /* ActivityView.swift in Sources */,
+				B10BECB52855EC1200D50AA2 /* NotificationList.swift in Sources */,
+				B1C96C82284CD4F70059F4A3 /* SearchEngine.swift in Sources */,
+				B1E4761027E85B2C002CEBD6 /* HapticManager.swift in Sources */,
+				A9CD87C827E3AC77007831C8 /* FeedbackViewModel.swift in Sources */,
+				B19CB9C9284C5DE500CBF6A7 /* SettingListModel.swift in Sources */,
+				B10BECB72855EC1200D50AA2 /* NotificationSection.swift in Sources */,
+				B1DF67782840B87100D6FB9C /* NoticeBookmarkList.swift in Sources */,
+				B11B4C3527C53B5A00F63D17 /* AppDelegate.AppsFlyerLib.swift in Sources */,
+				A992865B284357CE00802EC1 /* NoticeTypeColumn.swift in Sources */,
+				A9DA6C8727B981A100F3B786 /* AppDelegate.RemoteNotification.swift in Sources */,
+				B1DF67762840B7A100D6FB9C /* BannerView.swift in Sources */,
+				B1FC9FC2284C97B40051AD95 /* OpenSourceView.swift in Sources */,
+				A9D248142822DFB700F6FC51 /* String.Kuring.swift in Sources */,
+				A9DA6C6627B97EE300F3B786 /* AppDelegate.swift in Sources */,
+				B1453AFD284D1E4F001851A8 /* SearchedStaffDetailList.swift in Sources */,
+				A9CD87C627E3A0A5007831C8 /* FeedbackView.swift in Sources */,
+				A9DA6CD727B98D2300F3B786 /* SettingsViewController.swift in Sources */,
+				A9580E5E27ED85AC00253A58 /* StringSet.swift in Sources */,
+				B1FBAD1127D213C90044B90A /* AppStoreReviewManager.swift in Sources */,
+				B1453AFF284D2205001851A8 /* MailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DA6D0727B98FEC00F3B786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DA6D0827B98FEC00F3B786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DA6C7427B97EE500F3B786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DA6C7527B97EE500F3B786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DA6C7727B97EE500F3B786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098133CE147F3EC919795C6B /* Pods-Kuring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kuring/Kuring.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kuring/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "쿠링";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "허용 시에만 쿠링은 서비스의 안정성 개선을 위해 다음의 데이터를 수집 합니다: 설치기록, 앱 로그";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuring.service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9DA6C7827B97EE500F3B786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA68EE0A1CA6D5FD2FB9A4F /* Pods-Kuring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kuring/Kuring.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77CD4KLN3Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kuring/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "쿠링";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "허용 시에만 쿠링은 서비스의 안정성 개선을 위해 다음의 데이터를 수집 합니다: 설치기록, 앱 로그";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuring.service;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DA6C5D27B97EE300F3B786 /* Build configuration list for PBXProject "Kuring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA6C7427B97EE500F3B786 /* Debug */,
+				A9DA6C7527B97EE500F3B786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DA6C7627B97EE500F3B786 /* Build configuration list for PBXNativeTarget "Kuring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DA6C7727B97EE500F3B786 /* Debug */,
+				A9DA6C7827B97EE500F3B786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9D248012822BB1800F6FC51 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sendbird/sendbird-chat-sdk-ios";
+			requirement = {
+				kind = exactVersion;
+				version = "4.0.0-beta.7";
+			};
+		};
+		A9D248042822DAD900F6FC51 /* XCRemoteSwiftPackageReference "kuring-ios-commons" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KU-Stacks/kuring-ios-commons";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		A9DA6C7C27B9809900F3B786 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.9.0;
+			};
+		};
+		B10BECA22855DE7A00D50AA2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		B1DE72E6281CFFAB002AF498 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9D248022822BB1800F6FC51 /* SendbirdChatSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9D248012822BB1800F6FC51 /* XCRemoteSwiftPackageReference "sendbird-chat-sdk-ios" */;
+			productName = SendbirdChatSDK;
+		};
+		A9D248052822DAD900F6FC51 /* KuringCommons */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9D248042822DAD900F6FC51 /* XCRemoteSwiftPackageReference "kuring-ios-commons" */;
+			productName = KuringCommons;
+		};
+		A9DA6C7D27B9809900F3B786 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9DA6C7C27B9809900F3B786 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A9DA6C7F27B9809900F3B786 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9DA6C7C27B9809900F3B786 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B10BECA32855DE7A00D50AA2 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B10BECA22855DE7A00D50AA2 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		B1DE72E7281CFFAB002AF498 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1DE72E6281CFFAB002AF498 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9DA6C5A27B97EE300F3B786 /* Project object */;
+}
